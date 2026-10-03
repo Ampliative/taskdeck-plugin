@@ -3,10 +3,10 @@
     "version": "0.3.0",
     "description": "Track every task on your TaskDeck board. /taskdeck:track connects TaskDeck to Claude if it is not connected yet and turns Autotrack on for a repository or a workspace.",
     "author": {
-        "name": "AmplifyLab"
+        "name": "Ampliative"
     },
     "homepage": "https://taskdeck.me",
-    "repository": "https://github.com/AmplifyLab/taskdeck-plugin",
+    "repository": "https://github.com/Ampliative/taskdeck-plugin",
     "license": "MIT",
     "keywords": ["taskdeck", "kanban", "tasks", "autotrack", "board", "mcp"]
 }

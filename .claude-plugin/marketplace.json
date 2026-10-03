@@ -1,7 +1,7 @@
 {
     "name": "taskdeck",
     "owner": {
-        "name": "AmplifyLab"
+        "name": "Ampliative"
     },
     "metadata": {
         "description": "TaskDeck for Claude Code: the /taskdeck:track setup command.",

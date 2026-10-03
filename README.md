@@ -15,7 +15,7 @@
 1. Install the plugin:
 
    ```bash
-   claude plugin marketplace add AmplifyLab/taskdeck-plugin
+   claude plugin marketplace add Ampliative/taskdeck-plugin
    claude plugin install taskdeck@taskdeck
    ```
 
@@ -32,7 +32,7 @@
 No terminal, only the desktop app? Do it in the app:
 
 1. **Connect TaskDeck** as a connector: Customize → Connectors → Add custom connector, name it TaskDeck, paste `https://mcp.taskdeck.me/mcp`, then click Connect and approve. Code tab sessions get the TaskDeck tools from it too.
-2. **Install the plugin** from the Chat or Cowork section, not the Code tab: Settings → Plugins, add the marketplace `AmplifyLab/taskdeck-plugin`, then add TaskDeck. The Code tab's Plugins panel adds the marketplace but never lists its plugins.
+2. **Install the plugin** from the Chat or Cowork section, not the Code tab: Settings → Plugins, add the marketplace `Ampliative/taskdeck-plugin`, then add TaskDeck. The Code tab's Plugins panel adds the marketplace but never lists its plugins.
 3. **Run `/taskdeck:track`** in a new Code tab session in the folder.
 
 ## Manual install
