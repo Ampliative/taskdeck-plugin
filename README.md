@@ -1,6 +1,8 @@
 # TaskDeck for Claude Code
 
-`/taskdeck:track` puts your work on a [TaskDeck](https://taskdeck.me) board. Run it once in a repository or a workspace and every task Claude does there becomes a card, with the reasons, the criteria and the verification on it.
+[TaskDeck](https://taskdeck.me) is a hosted Kanban board that people and AI assistants work on together: Claude, ChatGPT, Cursor and other MCP clients create and move cards, tick checklists and comment through the TaskDeck MCP server at `https://mcp.taskdeck.me/mcp`. This repository is the TaskDeck plugin for Claude Code.
+
+`/taskdeck:track` puts your work on a TaskDeck board. Run it once in a repository or a workspace and every task Claude does there becomes a card, with the reasons, the criteria and the verification on it.
 
 ## What is what
 
