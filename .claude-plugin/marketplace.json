@@ -5,14 +5,14 @@
     },
     "metadata": {
         "description": "TaskDeck for Claude Code: the /taskdeck:track and /taskdeck:computer setup commands.",
-        "version": "0.4.0"
+        "version": "0.4.1"
     },
     "plugins": [
         {
             "name": "taskdeck",
             "source": "./",
             "description": "Track every task on your TaskDeck board and run your agents on your own computer. /taskdeck:track connects TaskDeck to Claude if it is not connected yet and turns Autotrack on for a repository or a workspace; /taskdeck:computer sets this computer up to run your TaskDeck agents.",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "keywords": ["taskdeck", "kanban", "tasks", "autotrack", "board", "mcp", "runner", "agents"],
             "category": "productivity"
         }
