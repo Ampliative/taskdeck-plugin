@@ -1,12 +1,12 @@
 {
     "name": "taskdeck",
-    "version": "0.3.0",
-    "description": "Track every task on your TaskDeck board. /taskdeck:track connects TaskDeck to Claude if it is not connected yet and turns Autotrack on for a repository or a workspace.",
+    "version": "0.4.0",
+    "description": "Track every task on your TaskDeck board and run your agents on your own computer. /taskdeck:track connects TaskDeck to Claude if it is not connected yet and turns Autotrack on for a repository or a workspace; /taskdeck:computer sets this computer up to run your TaskDeck agents.",
     "author": {
         "name": "Ampliative"
     },
     "homepage": "https://taskdeck.me",
     "repository": "https://github.com/Ampliative/taskdeck-plugin",
     "license": "MIT",
-    "keywords": ["taskdeck", "kanban", "tasks", "autotrack", "board", "mcp"]
+    "keywords": ["taskdeck", "kanban", "tasks", "autotrack", "board", "mcp", "runner", "agents"]
 }

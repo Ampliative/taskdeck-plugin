@@ -4,13 +4,16 @@
 
 `/taskdeck:track` puts your work on a TaskDeck board. Run it once in a repository or a workspace and every task Claude does there becomes a card, with the reasons, the criteria and the verification on it.
 
+`/taskdeck:computer` sets up the computer you run it on for your TaskDeck agents, so their sessions run there in Claude Code.
+
 ## What is what
 
 | Piece | What it is | What it is for |
 |---|---|---|
 | **TaskDeck MCP server** | The connection between Claude Code and your TaskDeck account: a `taskdeck` entry in `~/.claude.json` | Gives Claude Code the TaskDeck tools (boards, cards, Autotrack) in the terminal, the desktop app's Code tab and IDEs, with a Claude account or an API key |
-| **TaskDeck plugin** (this repository) | A Claude Code add-on | Adds `/taskdeck:track`, the setup command. It adds the TaskDeck server first if it is missing |
+| **TaskDeck plugin** (this repository) | A Claude Code add-on | Adds `/taskdeck:track` and `/taskdeck:computer`, the setup commands. Each adds the TaskDeck server first if it is missing |
 | **`/taskdeck:track`** | The setup, run once per folder | Picks or creates the board, turns Autotrack on and writes a short block into the folder's CLAUDE.md |
+| **`/taskdeck:computer`** | The setup, run once per computer | Installs and pairs the TaskDeck runner, adds your repositories, starts it at log-in and puts the computer on your agents' Runs on |
 
 ## Quick start
 
@@ -52,6 +55,16 @@ Do the same steps by hand to see what each one does:
 3. **Run `/taskdeck:track`** in the folder.
 
 In Claude's Chat tab, on the web and on mobile, TaskDeck is a connector instead: Customize → Connectors → Add custom connector, with the same URL.
+
+## Run your agents on this computer
+
+In a repository on the computer, run:
+
+```
+/taskdeck:computer
+```
+
+Claude installs the TaskDeck runner, pairs it, adds the repositories you choose, starts it at log-in and puts the computer on your agents' Runs on. You approve the pairing code in TaskDeck, and accept Claude Code's trust prompt once in each folder with `claude agents`. `/taskdeck:computer Planner` puts the computer on the agent called Planner without asking which.
 
 ## After setup
 
